@@ -1,3 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
+nav {
+	color: #F9E098;
+	opacity : .5;
+	width : 100%;
+	display : block;
+	margin-bottom : 2rem;
+	margin-top: 5rem;
+}
 
+header{
+	background-image: url(../images/black-vintage-background.jpg);
+	background-repeat: no-repeat;
+	background-position: top; 
+	background-size: cover;
+}
