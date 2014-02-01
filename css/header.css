@@ -22,8 +22,6 @@ body {
 
 .navigation li {
   float: left;
-  clear: both;
-  width: 100%;
 }
 
 .menu-item {
@@ -95,3 +93,31 @@ a.second {
 }
 
 
+@media only screen and (max-width: 25em) {
+	
+  
+  	.navigation li {
+ 	 	float: none;
+   	  	clear: both;
+  }
+
+ 	 .menu-item {
+  	  	width: 80%;
+		margin-left: -12em;
+  }
+
+}
+
+
+@media only screen and (max-width: 30em) {
+	
+	.navigation li {
+		float: right;
+		clear: both;
+  }
+
+  .menu-item {
+    	width: 100%;
+		display: inline-block;
+  }
+}
