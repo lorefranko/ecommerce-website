@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background-color: #373636;
+}
+
 
 .img-list-small {
 	width: 60%;
@@ -8,14 +12,31 @@
 }
 
 .btn-round {
-	margin-top: 2rem;
+	margin-top: 1rem;
 	margin-bottom: 4rem;
+	position: relative;
 }
 
 h5 {
 	text-align: center;
+	color: #F24649;
 }
 
+h1 {
+	color: #F7A244;
+}
+
+h3 {
+	color: #F24649;
+}
+
+.box {
+	background-color: #fff;
+}
+
+.media-body {
+	color: #fff;
+}
 
 
 

@@ -1,12 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
+
 .grid {
 
 	overflow: hidden; /*It makes the float from .unit to be separate for each elemnt*/
 }
 
 .unit {
-	background-color: #FDF8F8;
+	background-color: #ffff;
 	float: left;
 }
 
