@@ -1,3 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+.img-list-small {
+	width: 60%;
+	position: relative;
+}
+
+
+
