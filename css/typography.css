@@ -9,7 +9,7 @@
 html {
 	font: normal 100%/1.5 'Raleway', sans-serif; /* 16px/24px */
 	font-weight: 400;
-	color: #5C5C5C;
+	color: #00000;
 }
 
 /* Highlight colour*/
@@ -51,6 +51,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, dl, table {
   font-family: 'Irish Grover', cursive;
   font-size: 3.5832rem;
   line-height: 1.2559;
+  color: #000000;
 }
 
 .zetta {
@@ -71,6 +72,7 @@ h1, .exa {
   font-family: 'Irish Grover', cursive;
   font-size: 2.4883rem;
   line-height: 1.2056;
+  color: #ff6600;
 }
 
 h2, .peta {
@@ -96,6 +98,7 @@ h5, .mega {
 h6, .kilo {
   font-size: 1.0000rem;
   line-height: 1.5000;
+  color:#ff6600;
 }
 
 small, .milli {
