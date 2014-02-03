@@ -21,8 +21,8 @@ body {
   width: 90%;
   text-align: center;
   font: normal 1em/1.5em "Titillium Web", helvetica;
-  margin-bottom: 2rem;
-  padding-bottom: 30rem;
+ 
+ 
 }
 
 .menu-item {
@@ -31,6 +31,7 @@ body {
   position: relative;
   overflow: hidden;
   color: #ffffff;
+   margin: 0 auto;
 }
 .menu-item ul {
   position: absolute;
@@ -137,10 +138,19 @@ a.second {
 		float: left;
 		width: 33.333%;
 	}
+	
+	.navigation {
+		margin: 0 auto;
+	}
+
 
 }
 
 @media only screen and (min-width: 35em) {
+	
+	.logo {
+		width: 60%;
+	}
 	
 	.unit-l-1-2 {
 		width: 50%;
@@ -153,12 +163,15 @@ a.second {
 	.unit-l-2-3 {
 		width: 66.666%;
 	}
-}
-
+	
 /* GRID */
 
 
 @media only screen and (min-width: 45em) {
+	
+	.logo {
+		width: 50%;
+	}
 	
 	.unit-xl-1-2 {
 		width: 50%;
@@ -180,6 +193,10 @@ a.second {
 }
 
 @media only screen and (min-width: 55em) {
+	
+	.logo {
+		width: 35%;
+	}
 	
 	.menu-item{
 		overflow: hidden;
