@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #373636;
+  background: #4E4A45;
 }
 
 
@@ -20,12 +20,9 @@ body {
   padding-bottom: 30rem;
 }
 
-.navigation li {
-  float: left;
-}
-
 .menu-item {
-  width: 33.333%;
+	width: 100%;
+  display: inline-block;
   position: relative;
   overflow: hidden;
   color: #ffffff;
@@ -64,7 +61,7 @@ a.second {
 }
 .dropdown a, .dropdown a:hover, .dropdown a:visited, .dropdown a:focus {
   text-decoration: none;
-  color: #222222;
+  color: #DA3674;
 }
 .dropdown:first-child {
   text-decoration: none;
@@ -92,32 +89,79 @@ a.second {
   opacity: 1;
 }
 
+/* GRID */
 
-@media only screen and (max-width: 25em) {
+.grid {
+	border: 1px solid red;
+	overflow: hidden; /*It makes the float from .unit to be separate for each elemnt*/
+}
+
+.unit {
+	float: left;
+}
+
+.unit-s-1 {
+	width: 100%;
+}
+
+.unit-s-1-2 {
+	width: 50%;
+}
+
+@media only screen and (min-width: 25em) {
 	
-  
-  	.navigation li {
- 	 	float: none;
-   	  	clear: both;
-  }
+	.unit-m-1-3 {
+		width: 33.333%;
+	}
+	
+	.unit-m-1 {
+		width: 100%;
+}
+
+	.unit-m-1-2 {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 35em) {
+	
+	.unit-l-1-2 {
+		width: 50%;
+	}
+	
+	.unit-l-1-3 {
+		width: 33.3335%;
+	}
+	
+	.unit-l-2-3 {
+		width: 66.666%;
+	}
+}
+
+/* GRID */
+
+
+@media only screen and (min-width: 25em) {
+	
 
  	 .menu-item {
-  	  	width: 80%;
-		margin-left: -12em;
+  	  	width: 33.333%;
   }
 
 }
 
 
-@media only screen and (max-width: 30em) {
+@media only screen and (min-width: 45em) {
 	
-	.navigation li {
-		float: right;
-		clear: both;
-  }
-
-  .menu-item {
-    	width: 100%;
-		display: inline-block;
-  }
+	.unit-xl-1-2 {
+		width: 50%;
+	}
+	
+	.unit-xl-1-3 {
+		width: 33.3335%;
+	}
+	
+	.unit-xl-2-3 {
+		width: 66.666%;
+	}
 }
