@@ -161,7 +161,21 @@ a.second {
   		color: white;
   		text-decoration:  none;
 	}
-	
+
+	.banner {
+	  background: #9cc00a url("../images/home_banner.jpg") no-repeat center center;
+	  background-size: cover;
+	  padding: 4rem 5rem 1rem;
+	  margin-top: 3.3rem;
+	  text-align: center;
+	  
+	}
+
+	.banner h1{
+		padding-bottom: 3rem;
+		color: #000;
+	}
+		
 
 }
 

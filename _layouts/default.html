@@ -57,6 +57,12 @@
     </nav> 
   </header>
 
+{% if page.showbanner %}
+<div class="banner">
+  <h1>{{page.bannertext}}</h1>
+</div>
+{% endif %}
+
 {{content}}
 
   <footer>
