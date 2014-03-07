@@ -156,6 +156,11 @@ a.second {
 		float: left;
 		width: 33.333%;
 	}
+
+	.current{
+  		color: white;
+  		text-decoration:  none;
+	}
 	
 
 }
