@@ -31,12 +31,11 @@ body {
 	width: auto;
 }
 
-
 .navigation {
   width: 90%;
   text-align: center;
   font: normal 1em/1.5em "Titillium Web", helvetica;
-  margin: 0;
+  margin: 5%;
 }
 
 .menu-item {
@@ -59,6 +58,7 @@ a.menu-link {
   display: block;
   padding: 15px;
   margin-bottom: 2px;
+  text-decoration: none;
 }
 
 a.first {
@@ -158,15 +158,14 @@ a.second {
 	}
 
 	.current{
-  		color: white;
-  		text-decoration:  none;
+  		color: #4FBAF2;
 	}
 
 	.banner {
 	  background: #9cc00a url("../images/home_banner.jpg") no-repeat center center;
 	  background-size: cover;
-	  padding: 4rem 5rem 1rem;
-	  margin-top: 3.3rem;
+	  padding: 2rem 2rem 1rem;
+	  margin-top: 1rem;
 	  text-align: center;
 	  
 	}
@@ -192,8 +191,8 @@ a.second {
 	}
 
 	.logo-l {
-	display: none;
-	margin: 0 auto;
+		display: none;
+		margin: 0 auto;
 	}
 	
 	.unit-l-1-2 {
@@ -217,14 +216,7 @@ a.second {
 	
 	
 	.logo-m {
-		display: block;
-		width: 50%;
-	}
-
-	.logo-l {
-		display: none;
-		margin: 0 auto;
-		width: 60%;
+		width: 40%;
 	}
 	
 	.unit-xl-1-2 {
@@ -238,12 +230,7 @@ a.second {
 	.unit-xl-2-3 {
 		width: 66.666%;
 	}
-	
-	.menu-item{
-		overflow: hidden;
-		float: left;
-		width: 33.333%;
-	}
+
 }
 
 @media only screen and (min-width: 55em) {
@@ -256,13 +243,28 @@ a.second {
 		display: block;
 		margin: 0 auto;
 		width: 40%;
+		float: left;
+	}
+
+	.menu-item {
+		width: 55%;
+	  display: inline-block;
+	  position: relative;
+	  overflow: hidden;
+	  color: #ffffff;
+	   margin: 0 auto;
+	}
+
+	header {
+		float: left;
+	}
+
+	.navigation{
+		margin: 0;
+		border-style: dashed;
+
 	}
 	
-	.menu-item{
-		overflow: hidden;
-		float: left;
-		width: 33.333%;
-	}
 }
 
 @media only screen and (min-width: 75em) {
