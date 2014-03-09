@@ -6,12 +6,13 @@
   padding: 0;
 }
 
-html, body {
+html, footer {
   height: 100%;
   font-family: 'Raleway', sans-serif;
 }
 
-body {
+.footer,
+.copyright {
   background: #ddd;
 }
 
