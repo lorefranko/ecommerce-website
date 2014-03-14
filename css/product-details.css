@@ -12,15 +12,6 @@
   _ Dark Grey: #4E4A45
  */
 
-html {
-	font: normal 100%/1.5 'Raleway', sans-serif; /* 16px/24px */
-	font-weight: 400;
-	color: #ffffff;
-}
-
-body {
-	background-color: #4E4A45;
-}
 
 /* Typography */
 /* Ideal Margin for all the elemnts bellow */
@@ -41,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, exa {
   font-size: 2.4883rem;
   line-height: 1.2056;
-  color: #C8462B;
+  color: #ee82a2;
 }
 
 h2, peta {

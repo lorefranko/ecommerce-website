@@ -7,6 +7,12 @@
   box-sizing: border-box;
 }
 
+html {
+	font: normal 100%/1.5 'Raleway', sans-serif; /* 16px/24px */
+	font-weight: 400;
+	color: #ffffff;
+}
+
 body {
   background: #4E4A45;
 }
@@ -77,7 +83,7 @@ a.second {
 
 .dropdown {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 .dropdown a, .dropdown a:hover, .dropdown a:visited, .dropdown a:focus {
   text-decoration: none;
@@ -174,6 +180,11 @@ a.second {
 		padding-bottom: 3rem;
 		color: #000;
 	}
+
+	header {
+	border: dashed;
+	margin-bottom: 10rem;
+}
 		
 
 }
@@ -257,6 +268,7 @@ a.second {
 
 	header {
 		float: left;
+		padding-right: -62rem;
 	}
 
 	.navigation{

@@ -50,6 +50,34 @@
 	border: 0;
 }
 
+.yotta {
+  font-family: 'Irish Grover', cursive;
+  font-size: 3.5832rem;
+  line-height: 1.2559;
+  color: #000000;
+}
+
+h3, .tera {
+  font-size: 1.7280rem;
+  line-height: 1.7361;
+}
+
+h4, .giga {
+  font-size: 1.4400rem;
+  line-height: 1.0417;
+}
+
+h5, .mega {
+  font-size: 1.2000rem;
+  line-height: 1.2500;
+}
+
+h6, .kilo {
+  font-size: 1.0000rem;
+  line-height: 1.5000;
+  color:#ff6600;
+}
+
 
 
 
