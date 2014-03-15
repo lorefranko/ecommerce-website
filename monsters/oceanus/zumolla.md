@@ -1,7 +1,7 @@
 ---
 layout: monsters
 category: ocean monsters
-type: Monstrum Oceanus 
+type: Oceanus 
 name: Zumolla
 image: monsters/ocean/zumolla.jpg
 ---

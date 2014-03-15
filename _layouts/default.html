@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>{{page.title}} · Paper Monsters</title>
+  <title>{% if page.title %}{{page.title}} · {% endif %}Paper Monsters{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}</title>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -47,11 +47,11 @@
         </ul>
         <li class="menu-item"><a class="second menu-link b {% if page.url == '/monsters/' %}current{% endif %}"href="{{site.baseurl}}/monsters/">Monsters</a>
           <ul>
-            <li class="dropdown"><a href="#">Earth Monsters</a></li>
-            <li class="dropdown"><a href="#">Ocean Monsters</a></li>
-            <li class="dropdown"><a href="#">Space Monsters</a></li>
-            <li class="dropdown"><a href="#">Mutant Monsters</a></li>
-            <li class="dropdown"><a class="{% if page.url == '/thakyou/' %}current{% endif %}"href="{{site.baseurl}}/thankyou/">ThankYou</a></li>
+            <li class="dropdown"><a class="{% if page.url == '/earth-monsters/' %}current{% endif %}" href="{{site.baseurl}}/earth-monsters/">Earth Monsters</a></li>
+            <li class="dropdown"><a class="{% if page.url == '/ocean-monsters/' %}current{% endif %}" href="{{site.baseurl}}/ocean-monsters/">Ocean Monsters</a></li>
+            <li class="dropdown"><a class="{% if page.url == '/space-monsters/' %}current{% endif %}" href="{{site.baseurl}}/space-monsters/">Space Monsters</a></li>
+            <li class="dropdown"><a class="{% if page.url == '/mutant-monsters/' %}current{% endif %}" href="{{site.baseurl}}/mutant-monsters/">Mutant Monsters</a></li>
+            <li class="dropdown"><a class="{% if page.url == '/thankyou/' %}current{% endif %}"href="{{site.baseurl}}/thankyou/">ThankYou</a></li>
           </ul>  
         </li>
         <li class="menu-item"><a class="third menu-link c {% if page.url == '/about/' %}current{% endif %}"href="{{site.baseurl}}/about/">About</a>

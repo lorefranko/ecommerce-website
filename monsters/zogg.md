@@ -1,7 +1,7 @@
 ---
 layout: monsters
 category: space monsters
-type: Monstrum extraterrestrialis
+type: extraterrestrialis
 name: Zogg
 image: monsters/space/zogg.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 layout: monsters
 category: mutant monsters
-type: Monstrum mutantenus
+type: mutantenus
 name: Tongue Toastie
 image: monsters/mutant/tongue_toastie.jpg
 ---
