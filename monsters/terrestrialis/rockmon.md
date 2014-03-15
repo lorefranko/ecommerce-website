@@ -1,9 +1,9 @@
 ---
 layout: monsters
-category: earth monsters
+category: earth monster
 type: Terrestrialis 
 name: Rockmon
-image: monsters/abagon.jpg
+image: earth/abagon.jpg
 ---
 
 [Rockmon](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).

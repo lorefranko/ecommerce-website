@@ -1,9 +1,9 @@
 ---
 layout: monsters
-category: ocean monsters
+category: ocean monster
 type: Oceanus 
 name: Squidbeak
-image: monsters/ocean/zumolla.jpg
+image: ocean/zumolla.jpg
 ---
 
 [Squidbeak](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).

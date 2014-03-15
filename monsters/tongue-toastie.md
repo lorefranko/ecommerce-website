@@ -1,9 +1,9 @@
 ---
 layout: monsters
-category: mutant monsters
+category: mutant monster
 type: mutantenus
 name: Tongue Toastie
-image: monsters/mutant/tongue_toastie.jpg
+image: mutant/tongue_toastie.jpg
 ---
 
 [Gaspar](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).

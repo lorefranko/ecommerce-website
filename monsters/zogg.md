@@ -1,9 +1,9 @@
 ---
 layout: monsters
-category: space monsters
+category: space monster
 type: extraterrestrialis
 name: Zogg
-image: monsters/space/zogg.jpg
+image: space/zogg.jpg
 ---
 
 [Zogg!](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).

@@ -15,8 +15,9 @@ meta: All the paper toy monsters that one can imagine.
 
 <ul>
 	{% for monsters in site.pages %}
-		{% if monsters.category == 'earth monsters' %}
+		{% if monsters.category == 'earth monster' %}
 			<li>
+				{{monsters.category}}
 				<a href="{{monsters.url}}">
 				<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="">
 				{{monsters.name}}
@@ -28,8 +29,9 @@ meta: All the paper toy monsters that one can imagine.
 
 <ul>
 	{% for monsters in site.pages %}
-		{% if monsters.category == 'ocean monsters' %}
+		{% if monsters.category == 'ocean monster' %}
 			<li>
+				{{monsters.category}}
 				<a href="{{monsters.url}}">
 				<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="">
 				{{monsters.name}}
@@ -41,8 +43,9 @@ meta: All the paper toy monsters that one can imagine.
 
 <ul>
 	{% for monsters in site.pages %}
-		{% if monsters.category == 'space monsters' %}
+		{% if monsters.category == 'space monster' %}
 			<li>
+				{{monsters.category}}
 				<a href="{{monsters.url}}">
 				<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="">
 				{{monsters.name}}
@@ -54,7 +57,21 @@ meta: All the paper toy monsters that one can imagine.
 
 <ul>
 	{% for monsters in site.pages %}
-		{% if monsters.category == 'mutant monsters' %}
+		{% if monsters.category == 'mutant monster' %}
+			<li>
+				{{monsters.category}}
+				<a href="{{monsters.url}}">
+				<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="">
+				{{monsters.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+
+<ul>
+	{% for monsters in site.pages %}
+		{% if monsters.type == 'Oceanus' %}
 			<li>
 				<a href="{{monsters.url}}">
 				<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="">

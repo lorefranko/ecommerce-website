@@ -1,9 +1,9 @@
 ---
 layout: monsters
-category: ocean monsters
+category: ocean monster
 type: Oceanus 
 name: Octopup
-image: monsters/ocean/zumolla.jpg
+image: ocean/zumolla.jpg
 ---
 
 [Octopup](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).

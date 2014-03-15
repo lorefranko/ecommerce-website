@@ -3,7 +3,7 @@ layout: monsters
 category: earth monsters
 type: Terrestrialis 
 name: Nom Nom
-image: monsters/abagon.jpg
+image: earth/abagon.jpg
 ---
 
 [Nom Nom](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).
