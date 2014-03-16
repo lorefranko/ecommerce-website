@@ -6,14 +6,14 @@ name: Zumolla
 image: ocean/zumolla.jpg
 ---
 
-[Zumolla](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).
+[Zumolla](http://www.nicepapertoys.com/photo/zumolla-by-tetsuya-watabe) this large sea creature was born in Monster Islnad.
 
-It existed during the late Cretaceous geological period of North America in present day Kansas, Alabama, Nebraska, Wyoming, and South Dakota.
+With razor shaped pincers and excentric body, Zumolla can break the bone of any animal in less than two seconds.
 
-##Features
+##Abilities
 
--Skinny
--Has 3.8 meters wings 
--Eats fish
+-Dive 4,000ft deep
+-Sharped pincers
+-Nut cracker champion
 
-![Zumolla](http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pteranodon_amnh_martyniuk.jpg/456px-Pteranodon_amnh_martyniuk.jpg)
+![Zumolla](http://api.ning.com/files/EMAPvLMNwuegxU23VLciHxsYYGsvyBI7sNtnhSHWysPd5bOMh0d6MZyP8Ls6chaOxl9VfCaWcKSYwcVw-ewoiyAVS1nswJy1/zumolla.jpg)

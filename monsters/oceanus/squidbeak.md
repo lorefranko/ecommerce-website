@@ -3,17 +3,17 @@ layout: monsters
 category: ocean monster
 type: Oceanus 
 name: Squidbeak
-image: ocean/zumolla.jpg
+image: ocean/squidbeak.jpg
 ---
 
-[Squidbeak](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).
+Squidbeak is a A Humongus squid monster from Hawai, this 20-year-old male is still so young for her kind that his eyes are not yet fully develloped.
 
-It existed during the late Cretaceous geological period of North America in present day Kansas, Alabama, Nebraska, Wyoming, and South Dakota.
+Squidbeak will be able to femit long beams of light through the sea.
 
-##Features
+##Abilities
 
--Skinny
--Has 3.8 meters wings 
--Eats fish
+-Emits light
+-Multy tasking
+-Eats sharks
 
-![Squidbeak](http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pteranodon_amnh_martyniuk.jpg/456px-Pteranodon_amnh_martyniuk.jpg)
+![Squidbeak](http://www.matthijskamstra.nl/blog/wp-content/uploads/Squidbeak_wp500.jpg)

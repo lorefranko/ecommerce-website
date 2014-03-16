@@ -6,14 +6,14 @@ name: Abagon
 image: earth/abagon.jpg
 ---
 
-[Abagon](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).
+[Abagon](http://www.nicepapertoys.com/photo/abagon-by-tetsuya-watabe?context=latest) A Humongus dragon monster from Tahiti, this 320-year-old female is still so young for her kind that her wings are not yet fully develloped.
 
-It existed during the late Cretaceous geological period of North America in present day Kansas, Alabama, Nebraska, Wyoming, and South Dakota.
+Abagon will be able to fly six times faster than the speed of sound.
 
-##Features
+##Abilities
 
--Skinny
--Has 3.8 meters wings 
--Eats fish
+-Breath fire
+-Fastest flier 
+-Barbecue chef expert
 
-![Abagon](http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pteranodon_amnh_martyniuk.jpg/456px-Pteranodon_amnh_martyniuk.jpg)
+![Abagon](http://api.ning.com/files/cgte-IjRrJVYIjbvM8kvA7JCNc4AMldJfP4ZUVZtdmrTaH4DaflYLhzTi0snM7J67h5dTBmC5tuJ1m7VcMgTU-GgcNJAXtSu/abagon.jpg)

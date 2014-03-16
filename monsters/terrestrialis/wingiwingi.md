@@ -2,18 +2,18 @@
 layout: monsters
 category: earth monster
 type: Terrestrialis 
-name: Wingi Wingi 
-image: earth/abagon.jpg
+name: Wingy Wingy 
+image: earth/wingy.jpg
 ---
 
-[Wingi Wingi](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).
+[Wingy Wingy](http://www.thefreedictionary.com/Wingy) is a happy-go-lucky little winged monster from a cave somewhere in Souteast Asia whose main goal in life is to inspire people to love.
 
-It existed during the late Cretaceous geological period of North America in present day Kansas, Alabama, Nebraska, Wyoming, and South Dakota.
+The human girls who live in her village enjoy spending time with Wingy Wingy because she will sit on their shouldersand whisper sweet stories. 
 
-##Features
+##Abilities
 
--Skinny
--Has 3.8 meters wings 
--Eats fish
+-Fly
+-Night Vision 
+-Sing any pop song ever recorded
 
-![Wingi Wingi](http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pteranodon_amnh_martyniuk.jpg/456px-Pteranodon_amnh_martyniuk.jpg)
+![Wingy Wingy](http://api.ning.com/files/xP7n*ex0jNDUo*6xh4834kQQjOd9ReiiyBSgYmTwTzf6eGYHe9WHqEJ9hfOirtV2nx4wD*CrVcnMObldbPQ6UGO4pYWK6EgZ/wingy.wingy.jpg)

@@ -1,19 +1,20 @@
 ---
 layout: monsters
-category: earth monsters
+category: earth monster
 type: Terrestrialis 
-name: Nom Nom
-image: earth/abagon.jpg
+name: Nom Nom 
+image: earth/nomnom.jpg
 ---
 
-[Nom Nom](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).
+Nom Nom 
+Was a common street rat, but everything changed after he stepped into a vat of green hazardouswaste material.
 
-It existed during the late Cretaceous geological period of North America in present day Kansas, Alabama, Nebraska, Wyoming, and South Dakota.
+Now Nom Nom is 150ft tall and weighs 30tons.
 
-##Features
+##Abilities
 
--Skinny
--Has 3.8 meters wings 
--Eats fish
+-Chew anything
+-Dance extraordinary 
+-Gets bigger when he eats
 
-![Nom Nom](http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pteranodon_amnh_martyniuk.jpg/456px-Pteranodon_amnh_martyniuk.jpg)
+![Nom Nom](http://24.media.tumblr.com/636e5a1f2aa1d45643615ebeec92d6d2/tumblr_mld20fy3kG1qfzevfo1_500.jpg)

@@ -3,17 +3,17 @@ layout: monsters
 category: ocean monster
 type: Oceanus 
 name: Octopup
-image: ocean/zumolla.jpg
+image: ocean/octopup.jpg
 ---
 
-[Octopup](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).
+[Octopup](http://www.nicepapertoys.com/photo/octopup-by?context=user) is a biologycally natural, previosly unknown sea monstern.
 
-It existed during the late Cretaceous geological period of North America in present day Kansas, Alabama, Nebraska, Wyoming, and South Dakota.
+Octopup doesn't eat people, so he always spits out the passengers of the boats he took.
 
-##Features
+##Abilities
 
--Skinny
--Has 3.8 meters wings 
--Eats fish
+-Fetch
+-Tap dancer
+-Great swimmer
 
-![Octopup](http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pteranodon_amnh_martyniuk.jpg/456px-Pteranodon_amnh_martyniuk.jpg)
+![Octopup](http://api.ning.com/files/Z1bSlr-zffUqpiOeO89DUlCgrwx6s*kCMd7zFvFUjZVhMA37eTnEaVT7-U71yx9gqAicrUVVtMFnjhX9KNKL0OuE3HIvmUzr/octopup.jpg?width=600&height=399)

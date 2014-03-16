@@ -3,17 +3,17 @@ layout: monsters
 category: earth monster
 type: Terrestrialis 
 name: Nishwyndym 
-image: earth/abagon.jpg
+image: earth/nishwyndym.jpg
 ---
 
-[Nishwyndym](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).
+[Nishwyndym](http://www.nicepapertoys.com/photo/nishwyndym-by-boxpunx) This living tree monster hails from an enchanted forest deep in the Amazonian jungle.
 
-It existed during the late Cretaceous geological period of North America in present day Kansas, Alabama, Nebraska, Wyoming, and South Dakota.
+He will swallow any human who has the misfortune of straying into his territory.
 
-##Features
+##Abilities
 
--Skinny
--Has 3.8 meters wings 
--Eats fish
+-Strenght
+-Wisdom
+-Can play upwards
 
-![Nishwyndym](http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pteranodon_amnh_martyniuk.jpg/456px-Pteranodon_amnh_martyniuk.jpg)
+![Nishwyndym](http://api.ning.com/files/ABbkq-nqFyOnqIVu6VyOFXGEKmhlPjN6LKEpHvllUu-2TnXNAqRcTat4liI5B5jUurOcYv9HVeQ2Lc5LoW41EyfPZU2WN484/nishwyndym.jpg)

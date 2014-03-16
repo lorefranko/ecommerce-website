@@ -3,17 +3,17 @@ layout: monsters
 category: earth monster
 type: Terrestrialis 
 name: Rockmon
-image: earth/abagon.jpg
+image: earth/rockmon.jpg
 ---
 
-[Rockmon](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).
+[Rockmon](http://www.nicepapertoys.com/photo/wolfman-joe-rockmon) lives along the rocks and Red Rock Canyontone, just outside of Las Vegas.
 
-It existed during the late Cretaceous geological period of North America in present day Kansas, Alabama, Nebraska, Wyoming, and South Dakota.
+Rockmon is only 1" tall, and he is almost 100 years old.
 
-##Features
+##Abilities
 
--Skinny
--Has 3.8 meters wings 
--Eats fish
+-Blends in the forest
+-Hide and seek champion 
+-Hard body
 
-![Rockmon](http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pteranodon_amnh_martyniuk.jpg/456px-Pteranodon_amnh_martyniuk.jpg)
+![Rockmon](http://api.ning.com/files/iezhQs2L5JyFOuMZxb7jEeONEyC2gpfTZVAiOpe9ZXe8xsE2Ejlhf2qDUU0D*MHdbmYB1eo5CGUbafly6K7ZzgXpwweXoTEh/DSC04226.JPG?width=737&height=552)
