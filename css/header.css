@@ -20,6 +20,8 @@ body {
 .logo {
 	display: block;
 	margin: 0 auto;
+	width: 80%;
+	margin-bottom: -1rem;
 }
 
 .logo-m {
@@ -42,6 +44,7 @@ body {
   text-align: center;
   font: normal 1em/1.5em "Titillium Web", helvetica;
   margin: 5%;
+  color: #fff;
 }
 
 .menu-item {
@@ -62,8 +65,8 @@ body {
 
 a.menu-link {
   display: block;
-  padding: 15px;
-  margin-bottom: 2px;
+  padding: 10px;
+  margin-bottom: -2px;
   text-decoration: none;
 }
 
@@ -159,7 +162,6 @@ a.second {
   
   	.menu-item{
 		overflow: hidden;
-		float: left;
 		width: 33.333%;
 	}
 
@@ -184,7 +186,13 @@ a.second {
 	header {
 	border: dashed;
 	margin-bottom: 10rem;
-}
+	}
+
+	.menu-item{
+		overflow: hidden;
+		float: left;
+		width: 33.333%;
+	}
 		
 
 }
@@ -216,17 +224,18 @@ a.second {
 	
 	.unit-l-2-3 {
 		width: 66.666%;
-	}
-	
+	}	
+
 }
-	
-/* GRID */
 
 
 @media only screen and (min-width: 45em) {
 	
 	
 	.logo-m {
+		width: 40%;
+		display: block;
+		margin: 0 auto;
 		width: 40%;
 	}
 	
@@ -254,29 +263,8 @@ a.second {
 		display: block;
 		margin: 0 auto;
 		width: 40%;
-		float: left;
 	}
 
-	.menu-item {
-		width: 55%;
-	  display: inline-block;
-	  position: relative;
-	  overflow: hidden;
-	  color: #ffffff;
-	   margin: 0 auto;
-	}
-
-	header {
-		float: left;
-		padding-right: -62rem;
-	}
-
-	.navigation{
-		margin: 0;
-		border-style: dashed;
-
-	}
-	
 }
 
 @media only screen and (min-width: 75em) {

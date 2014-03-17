@@ -1,5 +1,5 @@
 ---
-layout: monsters
+layout: default
 title: monsters
 meta: All the paper toy monsters that one can imagine.
 ---
@@ -69,16 +69,4 @@ meta: All the paper toy monsters that one can imagine.
 	{% endfor %}
 </ul>
 
-<ul>
-	{% for monsters in site.pages %}
-		{% if monsters.type == 'Oceanus' %}
-			<li>
-				<a href="{{monsters.url}}">
-				<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="">
-				{{monsters.name}}
-				</a>
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>
 

@@ -15,7 +15,7 @@ meta: All the paper toy monsters that one can imagine.
 
 <ul>
 	{% for monsters in site.pages %}
-		{% if monsters.category == 'earth monster' %}
+		{% if monsters.category == 'space monster' %}
 			<li>
 				{{monsters.category}}
 				<a href="{{monsters.url}}">
@@ -26,6 +26,3 @@ meta: All the paper toy monsters that one can imagine.
 		{% endif %}
 	{% endfor %}
 </ul>
-
-
-
