@@ -1,8 +1,3 @@
-.container {
-  background: #bbc3c6;
-  font: normal 100%/1.5 'Raleway', sans-serif;
-
-}
 
 * {
   box-sizing: border-box;
@@ -27,12 +22,12 @@
 }
 
 p {
-  color: #8a8a8a;
+  color: #4c4c4c;
 }
 
 input {
   border: 0.3em solid #bbc3c6;
-  padding: 0.5em 0.3em; 
+  padding: 0.5em 0.3em;
   font-size: 1em;
   color: #8a8a8a;
   text-align: center;
@@ -41,7 +36,7 @@ input {
 .img {
   max-width: 9em;
   width: 100%;
-  overflow: hidden; 
+  overflow: hidden;
   margin-right: 1em;
 }
 
@@ -51,22 +46,22 @@ a {
 
 .container {
   max-width: 75em;
-  width: 95%;
-  margin: 40px auto;  
+  width: 90%;
+  margin: 40px auto;
   overflow: hidden;
   position: relative;
-  
+  font: normal 100%/1.5 'Raleway', sans-serif;
   border-radius: 0.6em;
   background: #ecf0f1;
   box-shadow: 0 0.5em 0 rgba(138, 148, 152, 0.2);
 }
 
 .heading {
-  padding: 1em;
+  padding: .4em;
   position: relative;
   z-index: 1;
   color: #f7f7f7;
-  background: #f34d35;
+  background: #c0392b;
 
 }
 
@@ -109,7 +104,7 @@ a {
   background: #f34d35;
   text-transform: uppercase;
   text-align: right;
-  font-size: 1.2em;  
+  font-size: 1.2em;
 }
 
 .tf p {
@@ -130,13 +125,8 @@ a {
   vertical-align: middle;
 }
 
-.col-qty {
-  text-align: center;
-  width: 17%;
-}
-
 .col-numeric p {
-  font: bold 1.5em 'Raleway', sans-serif;
+  font: bold 1em 'Raleway', sans-serif;
 }
 
 .col-total p {
@@ -167,7 +157,7 @@ a {
 }
 
 .col-qty > * {
-  vertical-align: middle; 
+  vertical-align: middle;
 }
 
 .col-qty > input {
@@ -182,7 +172,7 @@ a.qty {
   font-size: 1.5em;
   font-weight: bold;
   text-align: center;
-  background: #43ace3;  
+  background: #43ace3;
   color: #fff;
 }
 
@@ -213,25 +203,61 @@ a.qty:hover {
   transition: all 0.3s ease-in-out;
 }
 
+
+.side-table thead{
+  background-color: #4FBAF2;
+  color: #fff;
+}
+
+.side-table{
+  margin-bottom: 2rem;
+  width: 90%;
+  margin-right: 5%;
+  position: relative;
+}
+
+.side-table th,
+.side-table td{
+  text-align: center;
+}
+
+.side-list li{
+  margin: 1em 0;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.side-list dt{
+  font-weight: bold;
+  color: rgb(255,102,0);
+}
+.side-list dd:last-child{
+  color: rgb(255,102,0);
+  font-style: italic;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+
 @media only screen and (min-width: 45em) {
-  .container {
-    width: 98%;
+
+  img {
+    max-width: 100%;
+    margin-bottom: 1em;
   }
-  
-  .col-pro {
+}
+
+@media only screen and (min-width: 75em) {
+
+.col-pro {
     width: 35%;
   }
-  
+
   .col-qty {
     width: 22%;
   }
 
   .col-numeric p {
   font: bold 1.8em 'Raleway', sans-serif;
-}
-  
-  img {
-    max-width: 100%;
-    margin-bottom: 1em;
   }
 }
