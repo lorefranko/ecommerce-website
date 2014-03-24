@@ -40,20 +40,20 @@ body {
 }
 
 .navigation {
-  width: 90%;
-  text-align: center;
-  font: normal 1em/1.5em "Titillium Web", helvetica;
-  margin: 5%;
-  color: #fff;
+	width: 90%;
+	text-align: center;
+	font: normal 1em/1.5em "Titillium Web", helvetica;
+	margin: 5%;
+  	color: #fff;
 }
 
 .menu-item {
 	width: 100%;
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  color: #ffffff;
-   margin: 0 auto;
+  	display: inline-block;
+  	position: relative;
+  	overflow: hidden;
+  	color: #ffffff;
+   	margin: 0 auto;
 }
 .menu-item ul {
   position: absolute;
@@ -184,7 +184,6 @@ a.second {
 	}
 
 	header {
-	border: dashed;
 	margin-bottom: 10rem;
 	}
 
