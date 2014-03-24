@@ -1,0 +1,44 @@
+---
+layout: default
+title: Search
+meta: "Covering everything dinasour-ralated: links, photos, videos, info."
+showbanner: yes
+---
+
+<div class="grid"> 
+	<div class="unit unit-s-1 unit-m-1-2 unitl-1-3">
+		<h1>Monsters</h1>
+	</div>
+	<div class="unit unit-s-1 unit-m-1-2 unitl-1-3">
+		<p>This are the Monsters Categories page.</p>
+	</div>
+</div>
+
+<ul>
+	{% for monsters in site.pages %}
+		{% if monsters.name == 'Abagon' %}
+			<li>
+				{{monsters.name}}
+				<a href="{{monsters.url}}">
+				<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="">
+				{{monsters.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+
+<ul>
+	{% for monsters in site.pages %}
+		{% if monsters.name == 'Rockmon' %}
+			<li>
+				{{monsters.name}}
+				<a href="{{monsters.url}}">
+				<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="">
+				{{monsters.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+

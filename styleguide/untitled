@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Search Field</title>
+<title>Search</title>
 </head>
 
 <form method="get" action="{{site.baseurl}}/search/">
