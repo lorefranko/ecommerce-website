@@ -20,5 +20,5 @@ Rockmon is only 1" tall, and he is almost 100 years old.
 
 <div class="gutter media grid">
 	<h3>$20.99 CAN</h3>
-	<a href="#" class="btn-round mega">Buy Now</a>
+	<a class="btn-round mega {% if page.url == '/cart/' %}current{% endif %}"href="{{site.baseurl}}/cart/">Buy Now</a>
 </div>

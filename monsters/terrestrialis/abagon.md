@@ -20,5 +20,5 @@ Abagon will be able to fly six times faster than the speed of sound.
 
 <div class="gutter media grid">
 	<h3>$15.99 CAN</h3>
-	<a href="#" class="btn-round mega">Buy Now</a>
+	<a class="btn-round mega {% if page.url == '/cart/' %}current{% endif %}"href="{{site.baseurl}}/cart/">Buy Now</a>
 </div>

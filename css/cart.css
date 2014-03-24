@@ -1,6 +1,7 @@
 .container {
   background: #bbc3c6;
   font: normal 100%/1.5 'Raleway', sans-serif;
+
 }
 
 * {
@@ -19,14 +20,13 @@
 
 
 
-h1 {
+
+.shopper h1{
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 2.5em;
+  color: #ffff;
 }
 
 p {
-  font-size: 1.5em;
   color: #8a8a8a;
 }
 
@@ -67,6 +67,7 @@ a {
   z-index: 1;
   color: #f7f7f7;
   background: #f34d35;
+
 }
 
 .cart {
@@ -101,7 +102,7 @@ a {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: .8em;
 }
 
 .tf {
@@ -135,7 +136,7 @@ a {
 }
 
 .col-numeric p {
-  font: bold 1.8em helvetica;
+  font: bold 1.5em 'Raleway', sans-serif;
 }
 
 .col-total p {
@@ -170,7 +171,7 @@ a {
 }
 
 .col-qty > input {
-  max-width: 2.6em;
+  max-width: 2.2em;
 }
 
 
@@ -178,7 +179,7 @@ a.qty {
   width: 1em;
   line-height: 1em;
   border-radius: 2em;
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
   background: #43ace3;  
@@ -224,6 +225,10 @@ a.qty:hover {
   .col-qty {
     width: 22%;
   }
+
+  .col-numeric p {
+  font: bold 1.8em 'Raleway', sans-serif;
+}
   
   img {
     max-width: 100%;
