@@ -10,10 +10,15 @@ image: earth/rockmon.jpg
 
 Rockmon is only 1" tall, and he is almost 100 years old.
 
-##Abilities
+#Abilities
 
 -Blends in the forest
 -Hide and seek champion 
 -Hard body
 
 ![Rockmon](http://api.ning.com/files/iezhQs2L5JyFOuMZxb7jEeONEyC2gpfTZVAiOpe9ZXe8xsE2Ejlhf2qDUU0D*MHdbmYB1eo5CGUbafly6K7ZzgXpwweXoTEh/DSC04226.JPG?width=737&height=552)
+
+<div class="gutter media grid">
+	<h3>$20.99 CAN</h3>
+	<a href="#" class="btn-round mega">Buy Now</a>
+</div>

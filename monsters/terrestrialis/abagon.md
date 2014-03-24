@@ -17,3 +17,8 @@ Abagon will be able to fly six times faster than the speed of sound.
 -Barbecue chef expert
 
 ![Abagon](http://api.ning.com/files/cgte-IjRrJVYIjbvM8kvA7JCNc4AMldJfP4ZUVZtdmrTaH4DaflYLhzTi0snM7J67h5dTBmC5tuJ1m7VcMgTU-GgcNJAXtSu/abagon.jpg)
+
+<div class="gutter media grid">
+	<h3>$15.99 CAN</h3>
+	<a href="#" class="btn-round mega">Buy Now</a>
+</div>
