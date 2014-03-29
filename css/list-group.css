@@ -16,5 +16,74 @@
 	display: inline-block; /*display besides each other*/
 	border: ridge;
 	padding: 1rem;
+	margin-left: 1.3rem;
+	margin-right: 1.3rem;
+
 }
 
+@media only screen and (min-width: 27em) {
+
+	.list-group-item-inline {
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+
+	}
+
+}
+
+
+	@media only screen and (min-width: 35em) {
+
+	.list-group-item-inline {
+	margin-left: 1.9rem;
+	margin-right: 1.9rem;
+
+	}
+
+}
+
+@media only screen and (min-width: 45em) {
+
+	.list-group-item-inline {
+	margin-left: 2.4rem;
+	margin-right: 2.4rem;
+
+	}
+}
+
+
+@media only screen and (min-width: 55em) {
+
+	.list-group-item-inline {
+	margin-left: 3rem;
+	margin-right: 3rem;
+
+	}
+}
+
+@media only screen and (min-width: 65em) {
+
+	.list-group-item-inline {
+	margin-left: 3.2rem;
+	margin-right: 3.2rem;
+
+	}
+}
+
+@media only screen and (min-width: 75em) {
+
+	.list-group-item-inline {
+	margin-left: 3.8rem;
+	margin-right: 3.8rem;
+
+	}
+}
+
+@media only screen and (min-width: 85em) {
+
+	.list-group-item-inline {
+	margin-left: 5rem;
+	margin-right: 5rem;
+
+	}
+}
