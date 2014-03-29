@@ -5,7 +5,10 @@
   font-smoothing: antialiased;
 }
 
+hr {
+  margin-bottom: 2rem;
 
+}
 .shopper {
   text-transform: lowercase;
   font: normal 100%/1.5 'Raleway', sans-serif;
@@ -13,7 +16,10 @@
   display: inline-block;
 }
 
-
+.li-cart {
+  color: #000;
+  text-align: center;
+}
 
 
 .shopper h1{
@@ -81,6 +87,7 @@ a {
   overflow: hidden;
   clear: both;
   margin-bottom: 1.8em;
+  display: none;
 }
 
 
@@ -130,7 +137,7 @@ a {
 }
 
 .col-total p {
-  color: #12c8b1;
+  color: #12AB89;
 }
 
 .tf .col {
@@ -238,8 +245,20 @@ a.qty:hover {
   text-align: center;
 }
 
+@media only screen and (min-width: 27em) {
+
+
+}
 
 @media only screen and (min-width: 45em) {
+
+  .li-cart {
+    display: none;
+  }
+
+  .table {
+    display: table;
+  }
 
   img {
     max-width: 100%;
