@@ -5,7 +5,7 @@
   - Orange: ff6600 - rgb(255,102,0)
   - Fuchsia: #ff00ff - rgb(255,0,255)
  */
- 
+
 html {
 	font: normal 100%/1.5 'Raleway', sans-serif; /* 16px/24px */
 	font-weight: 400;
@@ -18,13 +18,13 @@ html {
 	color: #fff; /* changes the font color */
 }
 
-/* Links Style */ 
+/* Links Style */
 /* change colour, erase unerline, bottom border lighter colour - looks underline but stylized - transition when hover */
 a,
 a:link{
 	color: #4FBAF2;
 	text-decoration: none;
-	border-bottom: 0.1em solid  rgb(255,102,0); 
+	border-bottom: 0.1em solid  rgb(255,102,0);
 	transition: all 500ms linear; /* makes it fade between colour*/
 }
 
@@ -34,7 +34,16 @@ a:visited {
 }
 
 a:hover,
-a:focus, 
+a:active {
+outline: none;
+}
+
+a:focus {
+	outline: 3px solid #ff6600;
+}
+
+a:hover,
+a:focus,
 a:active {
 	color: #4FBAF2;
 	border-bottom-color: #4FBAF2;
@@ -61,7 +70,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, dl, table {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	
+
 }
 
 h1, h2, h3, h4, h5, h6 {
