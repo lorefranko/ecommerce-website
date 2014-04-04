@@ -8,6 +8,8 @@ meta: All the paper toy monsters that one can imagine.
 
 	<div class="unit gutter unit-s-1 unit-m-1 unit-l-1-2 unit-mxl-1-3 unit-xl-1-3">
 		<ul >
+			{% for monsters in site.pages %}
+				{% if monsters.category == 'earth' %}
 					<li>
 						{{monsters.category}}
 						<a href="{{monsters.url}}">
@@ -21,19 +23,23 @@ meta: All the paper toy monsters that one can imagine.
 	</div>
 	<div class="unit gutter unit-s-1 unit-m-1 unit-l-1-2 unit-mxl-1-2 unit-xl-1-3">
 		<ul>
-			<li>
-				{{monsters.category}}
-				<a href="{{monsters.url}}">
-				<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="ocean monster">
-				{{monsters.name}}
-				</a>
-			</li>
+			{% for monsters in site.pages %}
+				{% if monsters.category == 'ocean' %}
+					<li>
+						{{monsters.category}}
+						<a href="{{monsters.url}}">
+						<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="ocean monster">
+						{{monsters.name}}
+						</a>
+					</li>
 				{% endif %}
 			{% endfor %}
 		</ul>
 	</div>
 	<div class="unit gutter unit-s-1 unit-m-1 unit-l-1-2 unit-mxl-1-2 unit-xl-1-3">
 		<ul>
+			{% for monsters in site.pages %}
+				{% if monsters.category == 'space' %}
 					<li>
 						{{monsters.category}}
 						<a href="{{monsters.url}}">
@@ -47,7 +53,9 @@ meta: All the paper toy monsters that one can imagine.
 	</div>
 	<div class="unit gutter unit-s-1 unit-m-1 unit-l-1-2 unit-mxl-1-2 unit-xl-1-3">
 		<ul>
+		<ul>
 			{% for monsters in site.pages %}
+				{% if monsters.category == 'mutant' %}
 					<li>
 						{{monsters.category}}
 						<a href="{{monsters.url}}">
