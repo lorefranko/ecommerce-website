@@ -11,7 +11,6 @@
   <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/footer.css">
   <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/buckets.css">
   <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/list-group.css">
-  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/product-list.css">
   <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/media-object.css">
   <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/buttons.css">
   <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/product-details.css">
@@ -25,7 +24,6 @@
   <h1>{{page.bannertext}}</h1>
 </div>
 {% endif %}
-
   <header role="banner">
     <div class="grid">
       <div class="unit unit-s-1-3 unit-m-1-3">
@@ -36,19 +34,19 @@
     </div>
     <div class="grid">
       <div class="unit unit-s-1">
-        <img src="{{site.baseurl}}/images/logo.svg" class="logo"  alt="Paper Monsters logo">
-        <img src="{{site.baseurl}}/images/logo-m.svg" class="logo-m"  alt="Paper Monsters logo">
-        <img src="{{site.baseurl}}/images/logo-l.svg" class="logo-l"  alt="Paper Monsters logo">
+        <img src="{{site.baseurl}}/images/logo.svg" class="logo"  alt="Paper Monsters logo one monster">
+        <img src="{{site.baseurl}}/images/logo-m.svg" class="logo-m"  alt="Paper Monsters three monsters logo">
+        <img src="{{site.baseurl}}/images/logo-l.svg" class="logo-l"  alt="Paper Monsters five monsterslogo">
       </div>
     </div>
-    <nav role="navigaton">
+    <nav role="navigation">
       <ul class="navigation">
         <li class="menu-item"><a class="first menu-link {% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a>
           <ul>
           <li class="dropdown"><a href="#">Instructions</a></li>
           <li class="dropdown"><a href="#">Your very own paper toys</a></li>
         </ul>
-        <li class="menu-item"><a class="second menu-link b {% if page.url == '/monsters/' %}current{% endif %}"href="{{site.baseurl}}/monsters/">Monsters</a>
+        <li class="menu-item"><a class="second menu-link b{% if page.url == '/monsters/' %}current{% endif %}"href="{{site.baseurl}}/monsters/">Monsters</a>
           <ul>
             <li class="dropdown"><a class="{% if page.url == '/terrestrialis-monsters/' %}current{% endif %}" href="{{site.baseurl}}/monsters/terrestrialis/">Terrestrialis Monsters</a></li>
             <li class="dropdown"><a class="{% if page.url == '/oceanus-monsters/' %}current{% endif %}" href="{{site.baseurl}}/monsters/oceanus/">Oceanus Monsters</a></li>
@@ -57,7 +55,7 @@
             <li class="dropdown"><a class="{% if page.url == '/thankyou/' %}current{% endif %}"href="{{site.baseurl}}/thankyou/">ThankYou</a></li>
           </ul>
         </li>
-        <li class="menu-item"><a class="third menu-link c {% if page.url == '/about/' %}current{% endif %}"href="{{site.baseurl}}/about/">About</a>
+        <li class="menu-item"><a class="third menu-link c{% if page.url == '/about/' %}current{% endif %}"href="{{site.baseurl}}/about/">About</a>
           <ul>
           <li class="dropdown"><a href="#">Sponsors</a></li>
           <li class="dropdown"><a href="#">Contact</a></li>
