@@ -3,16 +3,17 @@ layout: default
 title: monsters
 meta: All the paper toy monsters that one can imagine.
 ---
-<main role="main" class="grid box">
+<main role="main" class="grid box-product">
 	<div class="unit gutter unit-s-1 unit-m-1 unit-l-1-2 unit-mxl-1-3 unit-xl-1-3">
 		<ul>
 			{% for monsters in site.pages %}
 				{% if monsters.category == 'earth monster' %}
 					<li>
-						{{monsters.category}}
+
 						<a href="{{monsters.url}}" alt="earth monster">
 						<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="earth monster">
 						{{monsters.name}}
+						{{monsters.category}}
 						</a>
 					</li>
 				{% endif %}

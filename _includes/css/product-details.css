@@ -102,6 +102,13 @@ h4, giga {
 	background-color: #fff;
 }
 
+.box-product {
+	background-color: #fff;
+	margin: 6%;
+	border-style: groove;
+
+}
+
 .media-body {
 	color: #00000;
 }
