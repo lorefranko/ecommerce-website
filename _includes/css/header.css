@@ -54,85 +54,6 @@ button:focus {
 	width: auto;
 }
 
-.navigation {
-	width: 90%;
-	text-align: center;
-	font: normal 1em/1.5em "Titillium Web", helvetica;
-	margin: 5%;
-  	color: #fff;
-}
-
-.menu-item {
-	width: 100%;
-  	display: inline-block;
-  	position: relative;
-  	overflow: hidden;
-  	color: #ffffff;
-   	margin: 0 auto;
-}
-.menu-item ul {
-  position: absolute;
-  left: 9999px;
-  opacity: 0;
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
-}
-
-a.menu-link {
-  display: block;
-  padding: 10px;
-  margin-bottom: -2px;
-  text-decoration: none;
-}
-
-a.first {
-  background: #c0392b;
-}
-a.second {
-  background: #c8462b;
-}
-a.third {
-  background: #d3592b;
-}
-
-a.second {
-  background: #C8462B;
-}
-
-.dropdown {
-  width: 100%;
-  padding: 10px;
-}
-.dropdown a, .dropdown a:hover, .dropdown a:visited, .dropdown a:focus {
-  text-decoration: none;
-  color: #F50969;
-}
-.dropdown:first-child {
-  text-decoration: none;
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
-}
-.dropdown:nth-child(even) {
-  background: #eeeeee;
-  transform: perspective(1000px) rotateX(-20deg);
-  transform-origin: top;
-  -webkit-transform: perspective(1000px) rotateX(-20deg);
-  -webkit-transform-origin: top;
-}
-.dropdown:nth-child(odd) {
-  background: #f5f5f5;
-  transform: perspective(1000px) rotateX(20deg);
-  transform-origin: bottom;
-  -webkit-transform: perspective(1000px) rotateX(20deg);
-  -webkit-transform-origin: bottom;
-  margin-top: -11px;
-}
-
-.menu-item:hover ul, .menu-item:focus ul {
-  position: static;
-  bottom: 200px;
-  opacity: 1;
-  color: #53CADE;
-}
 
 /* GRID */
 
@@ -161,6 +82,9 @@ h1 {
   color: #fff;
 }
 
+	header {
+	margin-bottom: 3rem;
+	}
 
 @media only screen and (min-width: 27em) {
 
@@ -180,11 +104,6 @@ h1 {
 		width: 50%;
 	}
 
-  	.menu-item{
-		overflow: hidden;
-		width: 33.333%;
-	}
-
 	.current{
   		color: #4FBAF2;
 	}
@@ -195,6 +114,7 @@ h1 {
 	  padding: 2rem 2rem 1rem;
 	  margin-top: 1rem;
 	  text-align: center;
+	  height: 4rem;
 
 	}
 
@@ -203,20 +123,7 @@ h1 {
 		color: #000;
 	}
 
-	header {
-	margin-bottom: 10rem;
-	}
-
-	.menu-item{
-		overflow: hidden;
-		float: left;
-		width: 33.333%;
-	}
-
-
 }
-
-
 
 @media only screen and (min-width: 35em) {
 

@@ -31,27 +31,10 @@
       </div>
     </div>
     <nav role="navigation">
-      <ul class="navigation">
-        <li class="menu-item"><a class="first menu-link {% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a>
-          <ul>
-          <li class="dropdown"><a href="#">Instructions</a></li>
-          <li class="dropdown"><a href="#">Your very own paper toys</a></li>
-        </ul>
-        <li class="menu-item"><a class="second menu-link b{% if page.url == '/monsters/' %}current{% endif %}"href="{{site.baseurl}}/monsters/">Monsters</a>
-          <ul>
-            <li class="dropdown"><a class="{% if page.url == '/terrestrialis-monsters/' %}current{% endif %}" href="{{site.baseurl}}/monsters/terrestrialis/">Terrestrialis Monsters</a></li>
-            <li class="dropdown"><a class="{% if page.url == '/oceanus-monsters/' %}current{% endif %}" href="{{site.baseurl}}/monsters/oceanus/">Oceanus Monsters</a></li>
-            <li class="dropdown"><a class="{% if page.url == '/extraterrestrialis-monsters/' %}current{% endif %}" href="{{site.baseurl}}/monsters/extraterrestrialis//">Extraterrestrialis Monsters</a></li>
-            <li class="dropdown"><a class="{% if page.url == '/mutantenus-monsters/' %}current{% endif %}" href="{{site.baseurl}}/monsters/mutantenus/">Mutantenus Monsters</a></li>
-            <li class="dropdown"><a class="{% if page.url == '/thankyou/' %}current{% endif %}"href="{{site.baseurl}}/thankyou/">ThankYou</a></li>
-          </ul>
-        </li>
-        <li class="menu-item"><a class="third menu-link c{% if page.url == '/about/' %}current{% endif %}"href="{{site.baseurl}}/about/">About</a>
-          <ul>
-          <li class="dropdown"><a href="#">Sponsors</a></li>
-          <li class="dropdown"><a href="#">Contact</a></li>
-         </ul>
-        </li>
+      <ul class="clearfix">
+        <li class="green line"><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a>
+        <li class="pink"><a class="{% if page.url == '/monsters/' %}current{% endif %}"href="{{site.baseurl}}/monsters/">Monsters</a>
+        <li class="orange"><a class="{% if page.url == '/about/' %}current{% endif %}"href="{{site.baseurl}}/about/">About</a>
       </ul>
     </nav>
   </header>
