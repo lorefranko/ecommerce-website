@@ -2,13 +2,20 @@
 layout: default
 ---
 
-<h1>{{page.name}}</h1>
+<div class="box grid list-group-item-inline">
+		<div class="unit gutter unit-m-1-1 unit-l-1-2 monstertype">
+			<h1>{{page.name}}</h1>
+			<dl>
+				<dt><strong>Type</strong></dt>
+				<dd>{{page.type}}</dd>
+				<dt><strong>Category</strong></dt>
+				<dd>{{page.category}}</dd>
+			</dl>
+		</div>
+		<div class="unit gutter unit-s-1 unit-m-1-1 unit-l-1-2">
+			{{content}}
+		</div>
+</div>
 
-<dl>
-	<dt>Type</dt>
-	<dd>{{page.type}}</dd>
-	<dt>Origin</dt>
-	<dd>{{page.origin}}</dd>
-</dl>
 
-{{content}}
+

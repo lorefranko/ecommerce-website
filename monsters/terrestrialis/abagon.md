@@ -5,8 +5,7 @@ type: Terrestrialis
 name: Abagon
 image: earth/abagon.jpg
 ---
-
-[Abagon]A Humongus dragon monster from Tahiti, this 320-year-old female is still so young for her kind that her wings are not yet fully develloped.
+A Humongus dragon monster from Tahiti, this 320-year-old female is still so young for her kind that her wings are not yet fully developed.
 
 Abagon will be able to fly six times faster than the speed of sound.
 
@@ -22,3 +21,4 @@ Abagon will be able to fly six times faster than the speed of sound.
 	<h3>$15.99 CAN</h3>
 	<a class="btn-round mega {% if page.url == '/cart/' %}current{% endif %}"href="{{site.baseurl}}/cart/">Buy Now</a>
 </div>
+

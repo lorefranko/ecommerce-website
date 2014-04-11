@@ -196,6 +196,14 @@ h4, giga {
 
 /* Buttons Ends */
 
+.monstertype h1{
+	color: #ff6600;
+}
+
+.monstertype {
+	color: #ff6600;
+}
+
 @media only screen and (min-width: 30em) {
 
 	.unit-m-1-3 {
