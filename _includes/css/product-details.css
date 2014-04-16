@@ -22,7 +22,11 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, dl, table {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Irish Grover', cursive;
 }
-
+.monstername {
+	font-size: 1.3rem;
+	font-family: 'Irish Grover', cursive;
+	padding-left: 1%;
+}
 .zetta {
   font-family: 'Irish Grover', cursive;
   font-size: 2.9860rem;
@@ -91,12 +95,17 @@ h4, giga {
 
 /* END of Side Table */
 
+.img-m-index {
+	width: 100%;
+	position: relative;
+	float: none;
+
+}
 
 .img-list-small {
 	width: 60%;
 	position: relative;
 }
-
 
 .box {
 	background-color: #fff;
@@ -105,7 +114,7 @@ h4, giga {
 .box-product {
 	background-color: #fff;
 	margin: 6%;
-	border-style: groove;
+	border-style: inset;
 
 }
 
@@ -202,6 +211,16 @@ h4, giga {
 
 .monstertype {
 	color: #ff6600;
+}
+
+@media only screen and (min-width: 30em) {
+
+.img-m-index {
+	width: 40%;
+	position: relative;
+	float: none;
+	}
+
 }
 
 @media only screen and (min-width: 30em) {
