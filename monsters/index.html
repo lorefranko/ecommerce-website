@@ -35,7 +35,7 @@ shownavigation: yes
 			{% for monsters in site.pages %}
 				{% if monsters.category == 'ocean monster' %}
 					<li>
-						<a href="{{monsters.url}}">
+						<a href="{{site.baseurl}}{{monsters.url}}">
 						<img class="img-m-index" src="{{site.baseurl}}/images/{{monsters.image}}" alt="ocean monster">
 							<div class="unit gutter unit-s-1 unit-m-1 unit-l-1-2 unit-mxl-1 unit-xl-1">
 								{{monsters.name}}
@@ -52,7 +52,7 @@ shownavigation: yes
 			{% for monsters in site.pages %}
 				{% if monsters.category == 'space monster' %}
 					<li>
-						<a href="{{monsters.url}}">
+						<a href="{{site.baseurl}}{{monsters.url}}">
 						<img class="img-m-index" src="{{site.baseurl}}/images/{{monsters.image}}" alt="space monster">
 							<div class="unit gutter unit-s-1 unit-m-1 unit-l-1-2 unit-mxl-1 unit-xl-1">
 								{{monsters.name}}
@@ -69,7 +69,7 @@ shownavigation: yes
 			{% for monsters in site.pages %}
 				{% if monsters.category == 'mutant monster' %}
 					<li>
-						<a href="{{monsters.url}}">
+						<a href="{{site.baseurl}}{{monsters.url}}">
 						<img class="img-m-index" src="{{site.baseurl}}/images/{{monsters.image}}" alt="mutant monster">
 							<div class="unit gutter unit-s-1 unit-m-1 unit-l-1-2 unit-mxl-1 unit-xl-1">
 								{{monsters.name}}
