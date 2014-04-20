@@ -2,25 +2,28 @@
 layout: monsters
 title: monsters
 category: Oceanus
+type: Ocean
 meta: All the oceanus paper toy monsters that one can imagine.
 ---
 
-<div class="grid box-product">
-	<div class="unit gutter unit-s-1 unit-m-1 unit-l-1-2 unit-mxl-1-3 unit-xl-1-3">
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unitl-1-3">
 		<h2>Oceanus Monsters</h2>
-		<ul>
-			{% for monsters in site.pages %}
-				{% if monsters.category == 'ocean monster' %}
-					<li>
-						<a href="{{monsters.url}}">
-						<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="">
-						{{monsters.name}}
-						{{monsters.category}}
-						</a>
-					</li>
-				{% endif %}
-			{% endfor %}
-		</ul>
 	</div>
 </div>
+
+<ul>
+	{% for monsters in site.pages %}
+		{% if monsters.category == 'ocean monster' %}
+			<li>
+				{{monsters.category}}
+				<a href="{{monsters.url}}">
+				<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="">
+				{{monsters.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+
 

@@ -6,14 +6,15 @@ name: Zogg
 image: space/zogg.jpg
 ---
 
-[Zogg!](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).
 
-It existed during the late Cretaceous geological period of North America in present day Kansas, Alabama, Nebraska, Wyoming, and South Dakota.
+He will swallow any human who has the misfortune of straying into his territory.
 
-##Features
+##Abilities
 
--Skinny
--Has 3.8 meters wings 
--Eats fish
-
-![Zogg!](http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pteranodon_amnh_martyniuk.jpg/456px-Pteranodon_amnh_martyniuk.jpg)
+-Strenght
+-Wisdom
+-Can play upwards
+<div class="gutter media grid">
+	<h3>$17.95 CAN</h3>
+	<a class="btn-round mega {% if page.url == '/cart/' %}current{% endif %}"href="{{site.baseurl}}/cart/">Buy Now</a>
+</div>

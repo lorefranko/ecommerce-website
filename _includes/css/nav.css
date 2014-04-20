@@ -68,7 +68,7 @@ nav ul li a {
 		line-height: 50px;
 		padding: 0 5px;
 		text-align: center;
-		width: 133px;
+		width: 99px;
 	}
 
 	nav ul li a:hover {
@@ -127,7 +127,7 @@ nav ul li a {
  @media only screen and (min-width: 35em) {
 
 	 nav ul li a{
-		width: 173px;
+		width: 129px;
 	}
 
 	nav ul {
@@ -139,7 +139,7 @@ nav ul li a {
  @media only screen and (min-width: 45em) {
 
 	 nav ul li a{
-		width: 220px;
+		width: 160px;
 	}
 
 	nav ul {
@@ -151,7 +151,7 @@ nav ul li a {
   @media only screen and (min-width: 55em) {
 
 	 nav ul li a{
-		width: 270px;
+		width: 200px;
 	}
 
 	nav ul {
@@ -159,10 +159,10 @@ nav ul li a {
 	}
  }
 
-   @media only screen and (min-width: 75em) {
+   @media only screen and (min-width: 65em) {
 
 	 nav ul li a{
-		width: 330px;
+		width: 213px;
 	}
 
 	nav ul {

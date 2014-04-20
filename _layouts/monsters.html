@@ -1,7 +1,14 @@
 ---
 layout: default
 ---
-
+<h1>Categories</h1>
+<nav role="navigation">
+ 	<ul class="clearfix">
+    <li class="green line"><a class="{% if page.url == '/monsters/terrestrialis/' %}current{% endif %}" href="{{site.baseurl}}/monsters/terrestrialis/">Terrestrialis</a>
+    <li class="pink"><a class="{% if page.url == '/monsters/oceanus/' %}current{% endif %}"href="{{site.baseurl}}/monsters/oceanus/">Oceanus</a>
+    <li class="orange"><a class="{% if page.url == '/monsters/extraterrestrialis/' %}current{% endif %}"href="{{site.baseurl}}/monsters/extraterrestrialis/">Extraterrestrialis</a>
+  </ul>
+</nav>
 <div class="box grid list-group-item-inline">
 		<div class="unit gutter unit-m-1-1 unit-l-1-2 monstertype">
 			<h1>{{page.name}}</h1>
