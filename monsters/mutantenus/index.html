@@ -12,7 +12,7 @@ shownavigation: yes
 			{% for monsters in site.pages %}
 				{% if monsters.category == 'mutant monster' %}
 					<li>
-						<a href="{{monsters.url}}">
+						<a href="{{site.baseurl}}{{monsters.url}}">
 						<img src="{{site.baseurl}}/images/{{monsters.image}}" alt="">
 						{{monsters.name}}
 						{{monsters.category}}
