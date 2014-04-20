@@ -6,14 +6,14 @@ name: Tongue Toastie
 image: mutant/tongue_toastie.jpg
 ---
 
-[Gaspar](http://en.wikipedia.org/wiki/Pteranodon) is a genus of pterosaurs which included some of the largest known flying reptiles, with wingspans over 6 metres (20 ft).
 
-It existed during the late Cretaceous geological period of North America in present day Kansas, Alabama, Nebraska, Wyoming, and South Dakota.
+Toastie is a long tongue monsters and human licker.
 
-##Features
+He loves to lick humans with long hair and funky clothes.
 
--Skinny
--Has 3.8 meters wings 
--Eats fish
+##Abilities
 
-![Gaspar](http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pteranodon_amnh_martyniuk.jpg/456px-Pteranodon_amnh_martyniuk.jpg)
+-Longest Tongue
+-Licking Record
+
+![Tongue-Toastie](http://www.nickknite.com/blog/wp-content/uploads/2011/01/Tongue_Toastie.jpg)
