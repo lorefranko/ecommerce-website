@@ -1,7 +1,7 @@
 ---
 layout: monsters
 category: ocean monster
-type: Oceanus 
+type: Oceanus
 name: Zumolla
 image: ocean/zumolla.jpg
 ---
@@ -17,3 +17,7 @@ With razor shaped pincers and excentric body, Zumolla can break the bone of any 
 -Nut cracker champion
 
 ![Zumolla](http://api.ning.com/files/EMAPvLMNwuegxU23VLciHxsYYGsvyBI7sNtnhSHWysPd5bOMh0d6MZyP8Ls6chaOxl9VfCaWcKSYwcVw-ewoiyAVS1nswJy1/zumolla.jpg)
+<div class="gutter media grid">
+	<h3>$25.99 CAN</h3>
+	<a class="btn-round mega {% if page.url == '/cart/' %}current{% endif %}"href="{{site.baseurl}}/cart/">Buy Now</a>
+</div>

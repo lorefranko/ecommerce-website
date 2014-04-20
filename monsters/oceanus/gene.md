@@ -1,7 +1,7 @@
 ---
 layout: monsters
 category: ocean monster
-type: Oceanus 
+type: Oceanus
 name: Gene
 image: ocean/gene.jpg
 ---
@@ -17,3 +17,7 @@ He rarely makes an appearance on the world stage, prefering to live in the abbys
 -Eats fish
 
 ![Gene](http://api.ning.com/files/7mdjGqCjve79053YP8V3nKF*aLdEOBSZnMuBOUJji-diI8ZDBDOegJXL9ujerE1Im6tlHTChoGVKwIV2dltDftf12cQMgHvbjoDnH9hclGY_/gene.jpg?width=600&height=455)
+<div class="gutter media grid">
+	<h3>$25.99 CAN</h3>
+	<a class="btn-round mega {% if page.url == '/cart/' %}current{% endif %}"href="{{site.baseurl}}/cart/">Buy Now</a>
+</div>

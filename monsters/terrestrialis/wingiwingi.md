@@ -15,7 +15,7 @@ The human girls who live in her village enjoy spending time with Wingy Wingy bec
 -Fly
 -Night Vision
 -Sing any pop song ever recorded
-
+![Wingy Wingy](http://api.ning.com/files/xP7n*ex0jNDUo*6xh4834kQQjOd9ReiiyBSgYmTwTzf6eGYHe9WHqEJ9hfOirtV2nx4wD*CrVcnMObldbPQ6UGO4pYWK6EgZ/wingy.wingy.jpg?width=600&height=452)
 <div class="gutter media grid">
 	<h3>$25.99 CAN</h3>
 	<a class="btn-round mega {% if page.url == '/cart/' %}current{% endif %}"href="{{site.baseurl}}/cart/">Buy Now</a>
