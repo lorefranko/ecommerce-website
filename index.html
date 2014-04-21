@@ -17,30 +17,33 @@ showbanner: yes
 	</div>
 
 	<div class="list-group-item-inline box">
-			<div class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-2 unit-xl-1-2"> {% include promo-large.html title="50% 0ff" image="promo_large.jpg" %}
+			<div class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-2 unit-xl-1-2"> {% include promo-large.html title="Membership 50% 0ff" image="promo_large.jpg" %}
 				<div class="gutter media grid">
 					<h3>$15.99 CAN</h3>
-					<a href="#" class="btn-round mega">Buy Now</a>
+					<a class="btn-semiround mega {% if page.url == '/cart/' %}current{% endif %}"href="{{site.baseurl}}/cart/">Buy Membership</a>
 				</div>
 			</div>
 			<div class="list-group-item-inline box img-list-small">
 				<h3>View Also</h3>
-				<div class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-2 unit-xl-1-2"> {% include promo-small.html title="Official Book with 50 monsters designs" image="promo-small/swank_promo_small.jpg" %}
+				<div class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2"> {% include promo-small.html title="Official Book 50 monsters" image="promo-small/swank_promo_small.jpg" %}
 					<div class="gutter">
 						<h6>15% off regular price</h6>
+						<a class="btn-semiround-blue milli {% if page.url == '/cart/' %}current{% endif %}"href="{{site.baseurl}}/cart/">Buy Now</a>
 					</div>
 				</div>
 
-				<div class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-2 unit-xl-1-2"> {% include promo-small.html title="Mystic Owls promo" image="promo-small/owls_promo_small.jpg" %}
+				<div class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2"> {% include promo-small.html title="Mystic Owls promo" image="promo-small/owls_promo_small.jpg" %}
 
 					<div class="gutter">
 						<h6>25% 0ff or FREE for new members!</h6>
-					</div>
+						<a class="btn-semiround-blue milli {% if page.url == '/cart/' %}current{% endif %}"href="{{site.baseurl}}/cart/">Buy Now</a>
+						</div>
 				</div>
 
-				<div class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-2 unit-xl-1-2"> {% include promo-small.html title="Cubic Monsters crazyness" image="promo-small/cubes_promo_small.jpg" %}
+				<div class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2"> {% include promo-small.html title="Cubic Monsters" image="promo-small/cubes_promo_small.jpg" %}
 					<div class="gutter">
 						<h6>Limited edition, offer expires in 2015</h6>
+						<a class="btn-semiround-blue milli {% if page.url == '/cart/' %}current{% endif %}"href="{{site.baseurl}}/cart/">Buy Now</a>
 					</div>
 				</div>
 			</div>

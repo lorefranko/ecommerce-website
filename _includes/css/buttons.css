@@ -34,6 +34,22 @@
 	color: #fff;
 	font-weight: bold;
 	border: 0;
+	margin-bottom: 2rem;
+}
+
+.btn-semiround-blue, /* Remember to Target all three to have them all stylized and working*/
+.btn-semiround-blue:link,
+.btn-semiround-blue:visited {
+	display: inline-block;
+	padding: 0.55rem 0.55em;
+	background-color: #4FBAF2;
+	background-image: linear-gradiant(to bottom, #ED3538, #571062);
+	border-radius: 16px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	color: #fff;
+	font-weight: bold;
+	border: 0;
+	margin-bottom: 2rem;
 }
 
 .btn-round, /* Remember to Target all three to have them all stylized and working*/
@@ -78,7 +94,10 @@ h6, .kilo {
   color:#ff6600;
 }
 
-
+small, .milli {
+  font-size: 0.8333rem;
+  line-height: 1.8000;
+}
 
 
 
