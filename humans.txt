@@ -8,5 +8,12 @@ Thanks to my teacher Thomas for passing us her knowledge
 
 /*SITE*/
 Last update: 2014/04/20
+Copyright
+
+© 2014 Lorena FRanco
+
+Code licensed under the MIT MIT License.
+
+Design and imagery licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.
 Standards: HTML5, CSS6, Jekyll etc.
 Software: Adobe, Livereload, Sublime Text 2
